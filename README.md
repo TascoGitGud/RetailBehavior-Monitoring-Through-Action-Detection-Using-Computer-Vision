@@ -1,4 +1,4 @@
-# Temporal Action Detection | Python / Machine Learning / Deep Learning
+# RetailBehavior Monitoring Through Action Detection Using Computer Vision | Python / Machine Learning / Deep Learning
 
 ## Introduction
 
