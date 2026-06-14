@@ -1,4 +1,4 @@
-# Temporal Action Detection
+# Temporal Action Detection | Python / Machine Learning / Deep Learning
 
 ## Introduction
 
