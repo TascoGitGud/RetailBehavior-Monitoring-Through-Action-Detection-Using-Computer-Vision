@@ -3,6 +3,16 @@
 
 # 🤖 RetailBehavior Monitoring Through Action Detection Using Computer Vision | Python / Machine Learning / Deep Learning
 
+## 📚 Table of Contents
+
+- 🛒 [Introduction](#-introduction)
+- 🗂️ [Directory Structure](#️-directory-structure)
+- ⚙️ [Installation](#️-installation)
+- ▶️ [Usage](#-usage)
+- 📑 [Configuration](#-configuration)
+
+---
+
 ## 🛒 Introduction
 
 This project aims to detect temporal action segments in videos. It utilizes a multi-stream architecture combining information from RGB (using MViT and a 2D CNN) and Pose data (using LSTM). Subsequently, an RNN model (LSTM/GRU) is employed for post-processing the predictions from the main model to refine the final results.
