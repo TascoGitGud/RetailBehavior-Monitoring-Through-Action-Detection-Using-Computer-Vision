@@ -52,7 +52,7 @@ To learn more about this project, please read: [Thesis_AIP491_G12.pdf](https://g
 
 **(Note:** The `Data/` and `logs/` directories mentioned in the setup steps are expected to be created manually or by running the preprocessing/training scripts respectively. They are not part of the initial repository structure).**
 
-##🔎 Installation
+## 🔎 Installation
 
 1.  **Create a virtual environment (Recommended):**
     ```bash
