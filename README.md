@@ -3,7 +3,7 @@
 
 # 🤖 RetailBehavior Monitoring Through Action Detection Using Computer Vision | Python / Machine Learning / Deep Learning
 
-##🛒 Introduction
+## 🛒 Introduction
 
 This project aims to detect temporal action segments in videos. It utilizes a multi-stream architecture combining information from RGB (using MViT and a 2D CNN) and Pose data (using LSTM). Subsequently, an RNN model (LSTM/GRU) is employed for post-processing the predictions from the main model to refine the final results.
 
@@ -11,7 +11,7 @@ This project is based on the MERL Shopping Dataset. To obtain the dataset used i
 
 To learn more about this project, please read: [Thesis_AIP491_G12.pdf](https://github.com/TascoGitGud/RetailBehavior-Monitoring-Through-Action-Detection-Using-Computer-Vision/blob/main/Thesis_AIP491_G12.pdf)
 
-##🗂️ Directory Structure
+## 🗂️ Directory Structure
 
 ```
 .
@@ -62,7 +62,7 @@ To learn more about this project, please read: [Thesis_AIP491_G12.pdf](https://g
 4.  **Configure the pipeline:**
     *   Edit `configs/config.yaml` to set paths, hyperparameters, and other settings for the different components (data loading, base model, RNN model, training parameters). Refer to the comments within the file for guidance.
 
-##▶️ Usage
+## ▶️ Usage
 
 Run the scripts in the `scripts/` directory in the following order:
 
@@ -117,7 +117,7 @@ Run the scripts in the `scripts/` directory in the following order:
     *   Requires the inference results file (`.pkl`) from step 4 and the RNN checkpoint from step 5. These paths must be set either in the config or via the `--inference_output_path` and `--rnn_checkpoint_path` arguments.
     *   See `scripts/evaluate_pipeline.py --help` for all evaluation and visualization options.
 
-##📑 Configuration
+## 📑 Configuration
 
 Project configuration (data paths, hyperparameters for base and RNN models, training settings) is managed through the `configs/config.yaml` file.
 
