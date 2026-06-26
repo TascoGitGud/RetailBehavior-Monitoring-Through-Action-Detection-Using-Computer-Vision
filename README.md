@@ -7,8 +7,8 @@
 
 - 🛒 [Introduction](#-introduction)
 - 🗂️ [Directory Structure](#️-directory-structure)
-- ⚙️ [Installation](#️installation)
-- ▶️ [Usage](#usage)
+- ⚙️ [Installation](#️--installation)
+- ▶️ [Usage](#--usage)
 - 📑 [Configuration](#-configuration)
 
 ---
