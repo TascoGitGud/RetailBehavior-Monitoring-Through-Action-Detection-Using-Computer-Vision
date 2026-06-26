@@ -7,8 +7,8 @@
 
 - 🛒 [Introduction](#-introduction)
 - 🗂️ [Directory Structure](#️-directory-structure)
-- ⚙️ [Installation](#️--installation)
-- ▶️ [Usage](#--usage)
+- ⚡ [Installation](#️-installation)
+- 📘 [Usage](#-usage)
 - 📑 [Configuration](#-configuration)
 
 ---
@@ -52,7 +52,7 @@ To learn more about this project, please read: [Thesis_AIP491_G12.pdf](https://g
 
 **(Note:** The `Data/` and `logs/` directories mentioned in the setup steps are expected to be created manually or by running the preprocessing/training scripts respectively. They are not part of the initial repository structure).**
 
-##⚙️ Installation
+##⚡ Installation
 
 1.  **Create a virtual environment (Recommended):**
     ```bash
@@ -72,7 +72,7 @@ To learn more about this project, please read: [Thesis_AIP491_G12.pdf](https://g
 4.  **Configure the pipeline:**
     *   Edit `configs/config.yaml` to set paths, hyperparameters, and other settings for the different components (data loading, base model, RNN model, training parameters). Refer to the comments within the file for guidance.
 
-## ▶️ Usage
+## 📘 Usage
 
 Run the scripts in the `scripts/` directory in the following order:
 
