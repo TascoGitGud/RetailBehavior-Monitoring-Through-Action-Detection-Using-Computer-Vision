@@ -7,7 +7,9 @@
 
 This project aims to detect temporal action segments in videos. It utilizes a multi-stream architecture combining information from RGB (using MViT and a 2D CNN) and Pose data (using LSTM). Subsequently, an RNN model (LSTM/GRU) is employed for post-processing the predictions from the main model to refine the final results.
 
-This project is based on the MERL Shopping Dataset.
+This project is based on the MERL Shopping Dataset. To obtain the dataset used in this project, please visit the official MERL Shopping Dataset page: [MERL Shopping Dataset](https://www.merl.com/research/downloads/MERL_Shopping_Dataset)
+
+To learn more about this project, please read: [Thesis_AIP491_G12.pdf](https://github.com/TascoGitGud/RetailBehavior-Monitoring-Through-Action-Detection-Using-Computer-Vision/blob/main/Thesis_AIP491_G12.pdf)
 
 ## Directory Structure
 
